@@ -1,8 +1,12 @@
 Steps:
 
+### Go to root dir
+
 1. import libraries used for the application
 ```
-pip install streamlit pypdf2 groq python-dotenv
+python -m venv venv
+venv/Scripts/activate
+pip install -r requirements.txt
 ```
 2. Create a Streamlit user-interface to accept pdf files from the local device using the file_uploader method of streamlit library.
 ```
